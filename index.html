@@ -1,69 +1,33 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- 外部通信を一切許可しない（ローカル完結） -->
-  <meta http-equiv="Content-Security-Policy"
-        content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data:;">
-  <title>星占い - Local Horoscope</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>シューティングゲーム</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="stars" aria-hidden="true"></div>
+  <div id="game-container">
+    <canvas id="game-canvas" width="480" height="640"></canvas>
 
-  <main class="container">
-    <header>
-      <h1>✦ 星占い ✦</h1>
-      <p class="sub">このPCの中だけで動く、あなたの星読みアプリ</p>
-    </header>
+    <div id="hud">
+      <div id="score">Score: 0</div>
+      <div id="difficulty">Lv. 1 / 0s</div>
+      <div id="lives">Life: ❤️❤️❤️</div>
+    </div>
 
-    <nav class="tabs" role="tablist">
-      <button class="tab active" data-tab="fortune" role="tab">今日の運勢</button>
-      <button class="tab" data-tab="match" role="tab">相性占い</button>
-      <button class="tab" data-tab="list" role="tab">星座一覧</button>
-    </nav>
+    <div id="start-screen" class="overlay">
+      <h1>シューティングゲーム</h1>
+      <p>矢印キー / WASD : 移動</p>
+      <p>スペースキー : 弾を発射</p>
+      <button id="start-button">ゲーム開始</button>
+    </div>
 
-    <!-- 運勢 -->
-    <section id="tab-fortune" class="panel active">
-      <form id="fortune-form" class="card form">
-        <label>生年月日
-          <input type="date" id="birthday" required min="1900-01-01">
-        </label>
-        <label>占う日
-          <input type="date" id="target-date" required>
-        </label>
-        <label class="check">
-          <input type="checkbox" id="remember" checked> 生年月日をこのPCに保存する
-        </label>
-        <button type="submit" class="primary">占う</button>
-      </form>
-      <div id="fortune-result" class="result" hidden></div>
-    </section>
-
-    <!-- 相性 -->
-    <section id="tab-match" class="panel">
-      <form id="match-form" class="card form">
-        <label>あなたの生年月日
-          <input type="date" id="birthday-a" required min="1900-01-01">
-        </label>
-        <label>お相手の生年月日
-          <input type="date" id="birthday-b" required min="1900-01-01">
-        </label>
-        <button type="submit" class="primary">相性を見る</button>
-      </form>
-      <div id="match-result" class="result" hidden></div>
-    </section>
-
-    <!-- 一覧 -->
-    <section id="tab-list" class="panel">
-      <div id="sign-list" class="grid"></div>
-    </section>
-
-    <footer>
-      <p>※ 占い結果はエンターテインメントです。データは外部へ送信されません。</p>
-    </footer>
-  </main>
+    <div id="gameover-screen" class="overlay hidden">
+      <h1>GAME OVER</h1>
+      <p id="final-score">Score: 0</p>
+      <button id="restart-button">もう一度プレイ</button>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
