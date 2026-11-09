@@ -1,0 +1,35 @@
+[
+  {
+    "id": "traveler-001",
+    "name": "ひなた",
+    "avatar": "ひ",
+    "stampCount": 7,
+    "visitedSpotIds": ["tide-view", "wind-lighthouse", "rainbow-market", "mirror-lake", "moonflower-hill", "stone-street", "snow-music-hall"],
+    "lastVisit": "2026-10-15",
+    "goodPoint": "景観・名所",
+    "claimedRewardIds": ["reward-1", "reward-2"],
+    "lineLinked": true
+  },
+  {
+    "id": "traveler-002",
+    "name": "そら",
+    "avatar": "そ",
+    "stampCount": 5,
+    "visitedSpotIds": ["tide-view", "rainbow-market", "mirror-lake", "moonflower-hill", "stone-street"],
+    "lastVisit": "2026-10-12",
+    "goodPoint": "スタンプ収集",
+    "claimedRewardIds": ["reward-1"],
+    "lineLinked": false
+  },
+  {
+    "id": "traveler-003",
+    "name": "けい",
+    "avatar": "け",
+    "stampCount": 2,
+    "visitedSpotIds": ["rainbow-market", "stone-street"],
+    "lastVisit": "2026-10-09",
+    "goodPoint": "旅先の交流",
+    "claimedRewardIds": [],
+    "lineLinked": false
+  }
+]

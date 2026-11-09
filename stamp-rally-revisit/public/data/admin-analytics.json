@@ -1,0 +1,118 @@
+{
+  "period": "2026-10-01〜2026-10-20",
+  "updatedAt": "2026-11-04T09:00:00+09:00",
+  "kpis": {
+    "registeredUsers": 500,
+    "stampUsers": 480,
+    "firstRoundCompletedUsers": 178,
+    "secondRoundUsers": 121,
+    "rewardEligibleEvents": 879,
+    "rewardReceivedEvents": 584,
+    "postSurveyUsers": 287,
+    "positiveSurveyUsers": 178
+  },
+  "dailyActivity": [
+    { "date": "10/01", "stamps": 119, "rewards": 16 },
+    { "date": "10/02", "stamps": 155, "rewards": 37 },
+    { "date": "10/03", "stamps": 131, "rewards": 31 },
+    { "date": "10/04", "stamps": 128, "rewards": 30 },
+    { "date": "10/05", "stamps": 154, "rewards": 33 },
+    { "date": "10/06", "stamps": 131, "rewards": 31 },
+    { "date": "10/07", "stamps": 173, "rewards": 40 },
+    { "date": "10/08", "stamps": 179, "rewards": 35 },
+    { "date": "10/09", "stamps": 182, "rewards": 45 },
+    { "date": "10/10", "stamps": 219, "rewards": 47 },
+    { "date": "10/11", "stamps": 187, "rewards": 41 },
+    { "date": "10/12", "stamps": 145, "rewards": 37 },
+    { "date": "10/13", "stamps": 143, "rewards": 27 },
+    { "date": "10/14", "stamps": 183, "rewards": 34 },
+    { "date": "10/15", "stamps": 162, "rewards": 41 },
+    { "date": "10/16", "stamps": 88, "rewards": 23 },
+    { "date": "10/17", "stamps": 63, "rewards": 16 },
+    { "date": "10/18", "stamps": 40, "rewards": 8 },
+    { "date": "10/19", "stamps": 29, "rewards": 4 },
+    { "date": "10/20", "stamps": 18, "rewards": 8 }
+  ],
+  "segments": [
+    {
+      "id": "unclaimed-reward",
+      "name": "解放済み特典が未受取",
+      "count": 227,
+      "priority": "high",
+      "signal": "解放数879件に対して受取584件",
+      "recommendedAction": "受取場所を含む短時間ミッションを案内",
+      "recommendedChannel": "アプリ内"
+    },
+    {
+      "id": "completed-no-return",
+      "name": "1周完了後に2周目未参加",
+      "count": 57,
+      "priority": "high",
+      "signal": "一巡178人のうち2周目は121人",
+      "recommendedAction": "季節・時間帯が異なる2スポット企画を案内",
+      "recommendedChannel": "アプリ内＋LINE"
+    },
+    {
+      "id": "mid-progress",
+      "name": "1〜6スタンプで停止",
+      "count": 302,
+      "priority": "medium",
+      "signal": "スタンプ取得480人のうち一巡は178人",
+      "recommendedAction": "未訪問地点から移動しやすい2か所を案内",
+      "recommendedChannel": "アプリ内"
+    },
+    {
+      "id": "registered-no-stamp",
+      "name": "登録後スタンプ未取得",
+      "count": 20,
+      "priority": "medium",
+      "signal": "登録500人、取得者480人",
+      "recommendedAction": "最寄りの1スポットと利用方法を案内",
+      "recommendedChannel": "アプリ内"
+    },
+    {
+      "id": "survey-nonresponders",
+      "name": "参加後アンケート未回答",
+      "count": 213,
+      "priority": "low",
+      "signal": "回答者287人、回答率57.4%",
+      "recommendedAction": "旅の記録確認時に短いアンケートを表示",
+      "recommendedChannel": "アプリ内"
+    }
+  ],
+  "spotPerformance": [
+    { "name": "星綾の潮見台", "visits": 382, "share": 79.6 },
+    { "name": "風詠みの灯台", "visits": 382, "share": 79.6 },
+    { "name": "虹灯りの夜市", "visits": 378, "share": 78.8 },
+    { "name": "瑠璃凪の水鏡湖", "visits": 377, "share": 78.5 },
+    { "name": "月花の風車丘", "visits": 375, "share": 78.1 },
+    { "name": "灯雲の石畳通り", "visits": 370, "share": 77.1 },
+    { "name": "雪雫の音楽堂", "visits": 365, "share": 76.0 }
+  ],
+  "insights": [
+    {
+      "id": "reward-gap",
+      "level": "opportunity",
+      "title": "未受取特典を再訪の目的に変えられます",
+      "body": "解放済み特典879件に対し、実受取は584件です。受取場所と周辺スポットを組み合わせた90分程度の旅が有効と考えられます。",
+      "impact": "特典受取率・再訪率",
+      "actionTemplate": "reward-pickup"
+    },
+    {
+      "id": "second-lap-gap",
+      "level": "opportunity",
+      "title": "一巡後の次の目標を早めに提示する余地があります",
+      "body": "7スポット完了者178人のうち、2周目に入ったのは121人です。完了直後に季節限定の2スポットを提示すると、次の行動が明確になります。",
+      "impact": "2周目移行率",
+      "actionTemplate": "seasonal-return"
+    },
+    {
+      "id": "route-info",
+      "level": "quality",
+      "title": "再訪施策には移動情報を含めてください",
+      "body": "自由記述には交通アクセス、所要時間、休憩場所、周辺店舗への要望があります。通知文だけでなく、計画画面まで一続きにする必要があります。",
+      "impact": "ミッション開始率・完了率",
+      "actionTemplate": "route-support"
+    }
+  ]
+}

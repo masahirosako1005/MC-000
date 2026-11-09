@@ -1,0 +1,67 @@
+[
+  {
+    "id": "sunset-route",
+    "title": "夕景をめぐる小さな旅",
+    "theme": "scenery",
+    "themeLabel": "景色を楽しむ",
+    "description": "光が変わる時間に、海と丘の景色をもう一度。",
+    "spotIds": ["moonflower-hill", "tide-view"],
+    "estimatedMinutes": 95,
+    "badge": "夕映えの旅人",
+    "badgeIcon": "🌇",
+    "season": "秋限定",
+    "availableUntil": "2026-12-20"
+  },
+  {
+    "id": "local-encounters",
+    "title": "灯りと会話の港町さんぽ",
+    "theme": "exchange",
+    "themeLabel": "交流を楽しむ",
+    "description": "夜市と石畳通りで、店の人におすすめを聞いてみよう。",
+    "spotIds": ["stone-street", "rainbow-market"],
+    "estimatedMinutes": 110,
+    "badge": "まちの聞き上手",
+    "badgeIcon": "🫶",
+    "season": "いつでも",
+    "availableUntil": "2027-03-31"
+  },
+  {
+    "id": "blue-collection",
+    "title": "青の季節スタンプコレクション",
+    "theme": "collection",
+    "themeLabel": "集める楽しみ",
+    "description": "期間限定の青いスタンプを3つ集めるコレクション旅。",
+    "spotIds": ["mirror-lake", "wind-lighthouse", "snow-music-hall"],
+    "estimatedMinutes": 180,
+    "badge": "青を集める人",
+    "badgeIcon": "💠",
+    "season": "秋限定",
+    "availableUntil": "2026-12-20"
+  },
+  {
+    "id": "reward-journey",
+    "title": "ごほうびを受け取る港の旅",
+    "theme": "reward",
+    "themeLabel": "ごほうびの旅",
+    "description": "未受取の特典と、港町の寄り道を一度に楽しむ旅。",
+    "spotIds": ["stone-street", "rainbow-market"],
+    "estimatedMinutes": 100,
+    "badge": "ごほうび案内人",
+    "badgeIcon": "🎁",
+    "season": "いつでも",
+    "availableUntil": "2027-03-31"
+  },
+  {
+    "id": "next-two-spots",
+    "title": "あと2つ、はじめての景色へ",
+    "theme": "discovery",
+    "themeLabel": "続きをめぐる",
+    "description": "まだ訪れていない場所から、移動しやすい2スポットを案内。",
+    "spotIds": ["wind-lighthouse", "snow-music-hall"],
+    "estimatedMinutes": 135,
+    "badge": "旅のつづき人",
+    "badgeIcon": "🧭",
+    "season": "いつでも",
+    "availableUntil": "2027-03-31"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "tide-view",
+    "name": "星綾の潮見台",
+    "area": "星凪諸島・薄青岬",
+    "icon": "🌊",
+    "accent": "ocean",
+    "bestTime": "16:30〜日没",
+    "stayMinutes": 35,
+    "access": "薄青港から岬シャトルで12分、潮見台前下車",
+    "rest": "展望デッキ横にベンチと給水所あり",
+    "nearby": "岬の小さな喫茶店、星砂の遊歩道",
+    "description": "海と空が淡い青に溶ける、夕景の人気スポット。"
+  },
+  {
+    "id": "wind-lighthouse",
+    "name": "風詠みの灯台",
+    "area": "白波離島",
+    "icon": "🗼",
+    "accent": "sky",
+    "bestTime": "10:00〜14:00",
+    "stayMinutes": 40,
+    "access": "白波港から徒歩18分。坂道区間あり",
+    "rest": "灯台資料館に休憩室あり",
+    "nearby": "島パン工房、白波の小径",
+    "description": "風の音と島々の眺めを楽しめる白い灯台。"
+  },
+  {
+    "id": "rainbow-market",
+    "name": "虹灯りの夜市",
+    "area": "虹帆町",
+    "icon": "🏮",
+    "accent": "sunset",
+    "bestTime": "17:00〜20:30",
+    "stayMinutes": 60,
+    "access": "虹帆駅東口から徒歩6分",
+    "rest": "中央広場にテーブル席と案内所あり",
+    "nearby": "島料理の屋台、手仕事雑貨店",
+    "description": "提灯の明かりと地元の人との会話が楽しい夜市。"
+  },
+  {
+    "id": "mirror-lake",
+    "name": "瑠璃凪の水鏡湖",
+    "area": "雫森谷",
+    "icon": "🫧",
+    "accent": "lake",
+    "bestTime": "7:30〜10:00",
+    "stayMinutes": 45,
+    "access": "雫森バス停から木道を徒歩12分",
+    "rest": "湖畔ビジターセンターに休憩所あり",
+    "nearby": "朝霧テラス、森の図書室",
+    "description": "風のない朝に山並みが鏡のように映る静かな湖。"
+  },
+  {
+    "id": "moonflower-hill",
+    "name": "月花の風車丘",
+    "area": "月灯集落",
+    "icon": "🌼",
+    "accent": "flower",
+    "bestTime": "15:00〜18:00",
+    "stayMinutes": 50,
+    "access": "月灯中央から巡回バスで8分",
+    "rest": "丘の入口にカフェとトイレあり",
+    "nearby": "月花カフェ、風車の見える畑道",
+    "description": "季節の花とゆっくり回る風車を望む丘。"
+  },
+  {
+    "id": "stone-street",
+    "name": "灯雲の石畳通り",
+    "area": "星綴港",
+    "icon": "🧱",
+    "accent": "stone",
+    "bestTime": "11:00〜16:00",
+    "stayMinutes": 45,
+    "access": "星綴港ターミナルから徒歩4分",
+    "rest": "通り中央の観光案内所で休憩可能",
+    "nearby": "港の菓子店、旅人メダル交換所",
+    "description": "古い商家と小店が並ぶ、港町らしい石畳の通り。"
+  },
+  {
+    "id": "snow-music-hall",
+    "name": "雪雫の音楽堂",
+    "area": "鈴風高原",
+    "icon": "🎵",
+    "accent": "music",
+    "bestTime": "13:00〜17:00",
+    "stayMinutes": 55,
+    "access": "高原駅から音楽堂連絡バスで10分",
+    "rest": "館内ロビーと高原ラウンジを利用可能",
+    "nearby": "音の庭、高原ミルクスタンド",
+    "description": "木の響きと高原の空気を楽しむ小さな音楽堂。"
+  }
+]
